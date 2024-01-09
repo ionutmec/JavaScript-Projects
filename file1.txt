@@ -2,4 +2,5 @@ this is my text file
 this is another line in the text file
 this is my tird line in the text file
 adding another line in file 
-adding merge conflict
+correct line of text
+
