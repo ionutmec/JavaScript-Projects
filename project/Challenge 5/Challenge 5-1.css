@@ -1,0 +1,197 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.center img {
+  width: 50%;
+}
+.img {
+
+    filter: grayscale(100%);
+}
+
+.center {
+
+    border: 1px solid red;
+    border-radius: 25px;
+
+}
+
+.ioio{
+
+   text-align: center; 
+   color: black;
+   position: relative;
+   display: block;
+   
+}
+
+.p {
+    font-size: small;
+    text-align: center;
+    }
+
+.thick {
+	text-align: center;
+	font-weight: bold;
+}
+
+th, td {
+	border: 2px solid;
+	padding: 10px;
+	
+}
+
+
+th {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Centered text*/
+.centered {
+    position:absolute;
+    background-color: lightblue;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+
+  /* The navigation bar*/
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /*Set the navbar to a fixed position*/
+    top: 0; /*Position on the navbar to the top of the page*/
+    width: 100; /*full width*/
+
+  }
+
+  /*Links inside the navbar*/
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /*Change background on a mouse over*/
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  .main {
+    margin-top: 30px;
+  }
+
+  .column1 {
+    float: left;
+    font: 100;   
+    padding: 30px;
+    background-color: #04AA6D;
+    width: 30%;    
+    text-align: center;
+    columns: text #2c0909;
+    color: red;
+    
+  }
+
+  .column2 {
+    float: left;
+    font: 100;
+    padding: 30px;
+    background-color: #736488;  
+    width: 30%;       
+    text-align: center;
+    columns: text #bd7777;
+    color: #81ac58;
+    
+  }
+
+
+
+
+  /*clear floats after the column*/
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+
+  .ronaldo p:hover {
+    background-color: #5ab884;
+    color: #333;
+    
+    
+  }
+
+  .container img {
+    border-radius: 50%;
+    display: flex;
+
+  }
+  .maradona img {
+    border-radius: 50%;
+    display: flex;
+  }
+
+  .maradona img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140,  186, 0.6);
+    transform: rotate(60deg);
+  } 
+  
+  .beach {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .two {
+    width: 30%;
+  display: inline-block;
+
+  }

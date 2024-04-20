@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="device-width"/>
+        <title>Ionut Mecu</title>
+        <link rel="stylesheet" type="text/css" href="portfolio.css"/>
+    </head>
+
+    <body class="Background">
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#home">Home</a>
+            <a class="#About">About</a>
+            <a class="#GitHub">GitHub</a>
+            <a class="#Contact">Contact</a>
+        </div>
+        <!--Break insert to add space-->
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="Typing.mp4" type="video/mp4">
+
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Ionut Mecu's Portofolio</h1>
+            <strong>
+                <p class="center">
+                <q>It's fine to celebrate success but it is more important to heed the lessons of failure.”.
+                    <br>“Humanity’s greatest advances are not in its discoveries, but in how those discoveries are applied to reduce inequity.”
+                    <br>“In this business, by the time you realize you’re in trouble, it’s too late to save yourself. Unless you’re running scared all the time, you’re gone.
+                </q>
+                <br> -Bill Gates
+                <br>
+                <br> My name is Ionut Mecu. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                <br>
+                <br> Thank you for stopping by and enjoy! 
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="images/b.jpg" alt="My image">
+            </div>
+         
+            <!--Right column-->
+            <div class="Column_1">
+             <h1>About</h1>
+             <p>I am person who want to become where my place is. I was an engenier in metalurgy (pouring steel), but my place is here, coding.
+                <br>I am a father of 2 beautiful kids
+                <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>
+                's Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, and be ready in December for SQL, C# and more.
+                <br>
+                <br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+             </p>
+            </div>
+        </div>
+
+        <!--Github section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:<!--Error-->
+                    <br>
+                    <p class="center"><a href="https://github.com/ionutmec/HTML-and-CSS-Projects/tree/main/project" target="_blank">My projects</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <img src="images/GitHub.png" alt="GitHub Logo">
+            </div>
+        </div>
+        
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+                <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="images/1.jpg" alt="Contact_Img">
+            </div>
+                <!--Contact form right image-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies wher and how to send form data; we are leaving blank -->
+                <form action="" method="post"><!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+
+
+
+    </body>
+
+</html>
