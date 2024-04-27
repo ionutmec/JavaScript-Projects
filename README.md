@@ -1,1 +1,1 @@
-HTML and CSS repository
+JavaScript Projects.
