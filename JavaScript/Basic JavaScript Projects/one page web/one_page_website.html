@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>One page web </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="one_page.css"/> 
+</head>
+<body>
+
+	<h2 style="text-align:center">Lightbox</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="./images/messi1.PNG" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="./images/maradona1.PNG" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="./images/pele1.PNG" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="./images/ronaldo1.PNG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="./images/messi1.PNG" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="./images/maradona1.PNG" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="./images/pele1.PNG" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="./images/ronaldo1.PNG" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="./images/messi1.PNG" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./images/maradona1.PNG" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./images/pele1.PNG" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./images/ronaldo1.PNG" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+  </div>
+</div>
+
+
+	<!--NAV-->
+	<div>
+	  <div>
+	    <ul>
+		   <a href="#home" id="link"><li>HOME</li></a>
+		   <a href="#gallery" id="link"><li>GALLERY</li></a>
+		   <a href="#contact" id="link"><li>CONTACT</li></a>
+		</ul>
+	  </div>
+	</div>
+	<!--END NAV-->
+	
+	<!--HOME-->
+	<div id="home">
+	  <div>
+	    <ul>
+		   <span>Best player</span>
+		   <iframe width="500" height="400" src="https://www.youtube.com/embed/Hg6AX-m4RPc" 
+		   title="Ronaldo Phenomenon Skills Will Blow Your Mind 🤯" frameborder="0" allow="accelerometer; 
+		   autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+		   web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</ul>
+	  </div>
+	</div>
+	<!--END HOME-->
+	
+	<!--GALLERY-->
+	<section>
+	  <div id="gallery">
+	    <h1>Gallery</h1>
+		<div>
+		
+		<!--PHOTO-CONTAINER 1 -->
+		<div class="uno">
+			<img style="height: 400px;width:400px" src=".\images\thumb\messi.jpg" alt="Messi">
+			<p>Pick Messi if you think is the best</p>
+		</div>
+		<!--END PHOTO-CONTAINER 1 -->
+		
+		<!--PHOTO-CONTAINER 2 -->
+		<div class="uno">
+		   <img style="height: 400px;width:400px" src=".\images\thumb\cronaldo.jpg" alt="Cristiano Ronaldo">    
+			<p>Pick Cristiano Ronaldo if you think is the best</p>
+		</div>
+		<!--END PHOTO-CONTAINER 2 -->
+		
+		<!--PHOTO-CONTAINER 3 -->
+		<div class="due">
+			<img style="height: 400px;width:400px" src=".\images\thumb\pele.jpg" alt="Pele">
+			<p>Pick Pele if you think is the best</p>
+		</div>
+		<!--END PHOTO-CONTAINER 3 -->
+		
+		<!--PHOTO-CONTAINER 4 -->
+		<div class="due">
+		   <img style="height: 400px;width:400px" src=".\images\thumb\maradona.jpg" alt="Maradona">
+			<p>Pick Maradona if you think is the best</p>
+		</div>
+		<!--END PHOTO-CONTAINER 4 -->
+		
+		<!--PHOTO-CONTAINER 5 -->
+		<div class="tre">
+			<img style="height: 400px;width:400px" src=".\images\thumb\van_basten.jpg" alt="Marco Van Basten">
+			<p>Pick Van Basten if you think is the best</p>
+		</div>
+		<!--END PHOTO-CONTAINER 5 -->
+		
+		<!--PHOTO-CONTAINER 6 -->
+		<div class="tre">
+			<img style="height: 400px;width:400px" src=".\images\thumb\ronaldo.jpg" alt="Ronaldo">
+			<p>Pick Ronaldo if you think is the besto</p>
+		</div>
+		<!--END PHOTO-CONTAINER 6 -->
+		
+		<!--PHOTO-CONTAINER 7 -->
+		<div class="quatro">
+ 			<img style="height: 400px;width:400px" src=".\images\thumb\ronaldinho.jpg" alt="Ronaldinho">
+			<p>Pick Ronaldinhio if you think is the best</p>
+		</div>
+		<!--END PHOTO-CONTAINER 7 -->
+		
+		<!--PHOTO-CONTAINER 8 -->
+		<div class="quatro">
+			<img style="height: 400px;width:400px" src=".\images\thumb\cruyff.gif" alt="Cruyff">
+			<p>Pick Cruyff if you think is the best</p>
+		</div>
+		<!--END PHOTO-CONTAINER 8 -->
+		
+		<!--PHOTO-CONTAINER 9 -->
+		<div class="cinque">
+			<img style="height: 400px;width:400px" src=".\images\thumb\bekenbauer.jpg" alt="Bekenbauer">
+			<p>Pick Bekenbauer if you think is the best</p>
+		</div>
+		<!--END PHOTO-CONTAINER 9 -->
+		
+		</div>
+	  </div>
+	</section>
+	 <!--END GALLERY -->
+	 
+	 <!--RSVP -->
+	<section>
+		<div id="contact">
+			<div>
+				<h1>Contact</h1>
+				
+					<div style="form" alt="form">
+						<form action="" method="post">
+							<div class="row">
+								<div class="col">
+								  <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+								</div>
+								<div class="col">
+								  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+								</div>
+								<div class="col">
+									<input type="text" class="form-control" placeholder="best player" aria-label="Last name">
+								  </div>
+							</div>
+							<input type="submit" value="Submit">
+							</div>
+						</form>
+					</div>
+			</div>
+		</div>
+	</section>
+	<!--END RSVP -->
+
+	<script src="js/one_page_website.js" defer></script>
+	
+	<!--FOOTER-->
+	<footer class="ioio"> 
+		<h3>Author: Ionut Mecu</h3>	
+	</footer>
+	<!--END FOOTER-->
+	
+</body>
+</html>
